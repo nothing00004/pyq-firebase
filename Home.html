@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PYQ : Home</title>
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  </head>
+  <body>
+    <header id="mu-header" class="" role="banner">
+      <div class="container">
+        <nav class="navbar navbar-default mu-navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="Home.html"><i class="fa fa-book" aria-hidden="true"></i> ExamVault</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav mu-menu navbar-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#mu-book-overview">COURSES</a></li>
+                <li><a href="#mu-contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="mu-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-sm-push-6">
+            <div class="mu-hero-right">
+              <img src="assets/images/ebook.png" alt="Ebook img">
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-sm-pull-6">
+            <div class="mu-hero-left">
+              <h1>Perfect Landing Page to Present Your question papers and eBook</h1>
+              <p>SUBMIT YOUR QUESTION PAPERS HERE</p>
+              <a href="#" class="mu-primary-btn">UPLOAD Now!</a>
+              <span>*Avaliable in PDF</span>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <section id="mu-book-overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-book-overview-area">
+              <div class="mu-heading-area">
+                <h2 class="mu-heading-title">Subject Overview</h2>
+                <span class="mu-header-dot"></span>
+               
+              </div>
+              <div id="search-results"></div>
+              <div id="subject-list" class="row">
+                <!-- Subject links will be dynamically added here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mu-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-contact-area">
+              <div class="mu-heading-area">
+                <h2 class="mu-heading-title">Drop Us A Message</h2>
+                <span class="mu-header-dot"></span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="mu-contact-content">
+                <div id="form-messages"></div>
+                <form action="https://api.web3forms.com/submit" method="POST" class="mu-contact1-form">
+                  <input type="hidden" name="access_key" value="ca5038d0-08e2-440a-acbb-2b834c700d47">
+                  <div class="form-group">                
+                    <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">                
+                    <input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
+                  </div>              
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
+                  </div>
+                  <button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="mu-footer" role="contentinfo">
+      <div class="container">
+        <div class="mu-footer-area">
+          <div class="mu-social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <p class="mu-copyright">&copy; Copyright <a rel="nofollow" href="#">BHARATH</a>. All right reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+  </body>
+</html>

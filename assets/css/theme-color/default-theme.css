@@ -1,0 +1,145 @@
+/* General Colors for Dark Mode */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    font-family: 'Helvetica Neue', sans-serif; /* Elegant font */
+}
+
+a,
+.mu-footer-area a,
+.mu-team-social-info a,
+.mu-social-media a {
+    color: #bb86fc; /* Soft purple link color */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+a:hover,
+a:focus,
+.mu-footer-area a:hover,
+.mu-footer-area a:focus,
+.mu-team-social-info a:hover,
+.mu-team-social-info a:focus,
+.mu-social-media a:hover,
+.mu-social-media a:focus {
+    color: #bb86fc; /* Brighter purple on hover */
+}
+
+.mu-service-icon-box,
+.mu-testimonial-slide .slick-dots li button::before,
+.mu-testimonial-slide .slick-dots li.slick-active button::before,
+.mu-single-counter i,
+.counter-value {
+    color: #e0e0e0; /* Light text color */
+}
+
+.mu-send-msg-btn:hover,
+.mu-send-msg-btn:focus,
+.mu-book-overview-icon-box,
+.mu-order-btn:hover,
+.mu-order-btn:focus {
+    border: 1px solid #bb86fc; /* Light purple border */
+    color: #e0e0e0; /* Light text color */
+}
+
+.mu-send-msg-btn {
+    border: 1px solid #bb86fc; /* Light purple border */
+    background-color: #1e1e1e; /* Slightly lighter dark background for buttons */
+    color: #e0e0e0; /* Light text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+#mu-hero,
+.mu-testimonial-slide .slick-dots li button:hover,
+.mu-testimonial-slide .slick-dots li button:focus,
+.mu-testimonial-slide .slick-dots li.slick-active button,
+.mu-header-dot,
+.mu-author-social a,
+.mu-pricing-content .mu-popular-price-tag,
+#mu-video-review:before {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+}
+
+.mu-contact-form .form-control:focus,
+.mu-testimonial-slide .slick-dots li button:hover,
+.mu-testimonial-slide .slick-dots li button:focus,
+.mu-testimonial-slide .slick-dots li.slick-active button {
+    border: 1px solid #bb86fc; /* Light purple border */
+}
+
+/* Additional Styles for Dark Mode */
+.mu-footer-area {
+    background-color: #1e1e1e00; /* Dark footer background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.mu-footer-area a {
+    color: #bb86fc; /* Light footer links */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.mu-header-area {
+    background-color: #1e1e1e; /* Dark header background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.mu-header-area a {
+    color: #bb86fc; /* Light header links */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.mu-hero-left {
+    background-color: #1e1e1e; /* Darker hero section background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.mu-hero-left .mu-primary-btn {
+    background-color: #3700b3; /* Elegant dark purple button background */
+    color: #ffffff; /* White button text */
+    border: 1px solid #6200ea; /* Lighter purple border */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.mu-hero-left .mu-primary-btn:hover,
+.mu-hero-left .mu-primary-btn:focus {
+    background-color: #6200ea; /* Lighter purple on hover */
+    border-color: #bb86fc; /* Light purple border on hover */
+    color: #ffffff; /* White button text */
+}
+
+/* Ensure buttons are more visible */
+button,
+.mu-primary-btn,
+.mu-order-btn,
+.mu-send-msg-btn {
+    background-color: #3700b3; /* Elegant dark purple button background */
+    color: #ffffff; /* White button text */
+    border: 1px solid #6200ea; /* Lighter purple border */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.mu-testimonial-slide .slick-dots li button::before,
+.mu-testimonial-slide .slick-dots li.slick-active button::before {
+    color: #bb86fc; /* Light purple dots for testimonials */
+}
+
+.mu-pricing-content .mu-popular-price-tag {
+    background-color: #3700b3; /* Darker purple background for pricing tags */
+    color: #ffffff; /* White text */
+}
+
+/* Input and Form Elements */
+.mu-contact-form .form-control {
+    background-color: #1e1e1e; /* Dark input background */
+    color: #e0e0e0; /* Light text color */
+    border: 1px solid #bb86fc; /* Light purple border */
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+.mu-contact-form .form-control:focus {
+    border-color: #ff79c6; /* Brighter purple on focus */
+}
+
+/* Additional transitions for smooth interactions */
+* {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Global transition for a smooth effect */
+}
